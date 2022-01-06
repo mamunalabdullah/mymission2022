@@ -131,7 +131,7 @@ a{
 .community-area{
     background-size: 10%;
     background-position-x: 94%;
-    background-position-y: 100%;
+    background-position-y: 98%;
 }
 .community-content{
     padding-left: 0;
@@ -148,6 +148,7 @@ footer h3{
     color: #fff;
     font-style: italic;
     font-weight: 700;
+    font-family: 'Playfair Display', serif;
 }
 footer p{
     font-size: 15px;
