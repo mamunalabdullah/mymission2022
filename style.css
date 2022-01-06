@@ -23,6 +23,10 @@ h1::before{
     left: -10px;
     
 }
+h3{
+    color: #333;
+    font-size: 40px;
+}
 p{
     color: #3E3E3E;
     font-size: 20px;
@@ -55,6 +59,7 @@ a{
     background-color: #7A3EA5;
     border: none;
     transition: 0.8s;
+    border-radius: 10px;
 }
 .link-button:hover{
     cursor: pointer;
@@ -84,10 +89,34 @@ a{
     background-color: #D1F3F9;
     border-radius: 20px;
 }
+.mission-item-2{
+    background-color: #FEE4CD;
+}
+.mission-item-3{
+    background-color: #BAC3CB;
+}
 .mission-item img{
     width: 30%;
 }
 .item-content p{
     font-size: 15px;
     color: #757878;
+}
+.develop-area{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.develop-img{
+    width: 40%;
+}
+.develop-img img{
+    width: 100%;
+}
+.develop-content{
+    width: 60%;
+    padding: 0 7%;
+}
+.content-title{
+    width: 50%;
 }
