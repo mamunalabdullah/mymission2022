@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    color: #333;
+    font-size: 65px;
+}
+p{
+    color: #3E3E3E;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.focused-area{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.focused-content{
+    width: 50%;
+    padding: 5% 2%;
+}
+.colorful{
+    color: #551FBA;
+}
+.link-button{
+    padding: 13px 42px;
+    background-color: #7A3EA5;
+    border: none;
+    transition: 0.8s;
+}
+.link-button:hover{
+    cursor: pointer;
+    background-color: #C1787E;
+}
+.focused-img{
+    width: 50%;
+}
+.focused-img img{
+    width: 100%;
+}
+.mission-area h2{
+    text-align: center;
+    font-size: 50px;
+    color: #13103A;
+}
+.mission-items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.mission-item{
+    width: 27%;
+    padding: 3% 2%;
+    background-color: #D1F3F9;
+    border-radius: 20px;
+}
+.mission-item img{
+    width: 30%;
+}
+.item-content p{
+    font-size: 15px;
+    color: #757878;
+}
